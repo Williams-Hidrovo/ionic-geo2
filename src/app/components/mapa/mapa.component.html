@@ -1,0 +1,19 @@
+<ion-header translucent="true">
+  <ion-toolbar>
+    <div class="title">
+      <ion-button
+        expand="block"
+        fill="clear"
+        shape="round"
+        [routerLink]="['/home']"
+      >
+        Atras
+      </ion-button>
+      <ion-title>Mapa</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <capacitor-google-map id="map"></capacitor-google-map>
+</ion-content>
